@@ -6,8 +6,8 @@ var mysql = require('mysql');
 console.log("Connecting to localhost..."); 
 var con = mysql.createConnection({
   host: '127.0.0.1',
-  user: "root",
-  port: 3306,
+  user: "root",     // Make sure that you change this password!
+  port: 3307,
   database: "TestTravel",
   password: ""
 });
